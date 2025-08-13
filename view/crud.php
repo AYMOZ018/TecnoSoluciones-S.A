@@ -33,7 +33,7 @@
             $accionTmp = ACCION_PRINCIPAL;
             $controlador->$accionTmp();
         }
-
+        
     ?>
 </body>
 </html>

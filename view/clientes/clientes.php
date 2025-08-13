@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="crud.css?v=3">
+    <script src="https://kit.fontawesome.com/a02f6756ea.js" crossorigin="anonymous"></script>
     <title>clientes..php</title>
 </head>
 <body>
     <center>
-    <h2><?php echo $data["titulo"]; ?></h2>			
-				
+    <h2><?php echo $data["titulo"]; ?></h2>	
+
 	<br>
-	<br>
-    
+
 	<table border="1" class="tablecliente">
         <thead>
             <tr>
@@ -46,6 +46,11 @@
             </div>
         </tbody>					
 	</table>
+    <br>
+    <div>
+        <i class="fa-solid fa-file-pdf"></i>
+        <a href="crud.php?c=cliente&a=generarPDF" target="_blank" class="generar">Generar Reporte</a>
+    </div>
     </center>
 </body>
 </html>

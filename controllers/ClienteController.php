@@ -1,4 +1,8 @@
 <?php
+
+/*require_once "../view/dompdf/autoload.inc.php";
+use Dompdf\Dompdf;*/
+
 class ClienteController {		
     public function __construct(){
         require_once "../models/ClienteModel.php";
@@ -57,6 +61,25 @@ class ClienteController {
 			$cliente->eliminar($id);
 			$data["titulo"] = "Clientes";
 			$this->index();
+		}
+
+		public function generarPDF(){
+/*
+			$cliente = new Cliente_model();
+			$clientes = $cliente->get_clientes();
+ */
+			// Capturar contenido HTML del reporte
+			
+			include "../view/reportar.php";
+/*
+			// Configurar Dompdf
+			$dompdf = new Dompdf();
+			$dompdf->loadHtml($html);
+			$dompdf->loadHtml("html");
+			$dompdf->setPaper('A4', 'portrait'); // Tamaño A4 y orientación vertical
+			$dompdf->render();
+ */
+					
 		}
 }
 
