@@ -1,0 +1,6 @@
+1. ESTE ES EL DE GITHUB
+2. PUEDES HACER MODIFICACIONES COMO DESEES
+3. BASE DE DATOS tecnosoluciones
+4. Ctrl + F5 para el css, fuerza la recarga ignorando el caché
+5. WEB BASICA CON INICIAR SESION Y REGISTRARTE ROSA CON CRUD, Y USO DE 
+MVC es diseño de software tres componentes interconectados: Modelo (Model), Vista (View) y Controlador (Controller).

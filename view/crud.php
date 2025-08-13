@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="crud.css?v=3">
-    <title>Document</title>
+    <title>crud.php</title>
 </head>
 <body>
     <?php

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="crud.css?v=3">
+    <link rel="stylesheet" href="../crud.css?v=1">
     <script src="https://kit.fontawesome.com/a02f6756ea.js" crossorigin="anonymous"></script>
     <title>clientes..php</title>
 </head>
